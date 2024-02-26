@@ -1,0 +1,17 @@
+body{
+  margin: 0; padding: 0;
+  background-color: #0e1111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body pre{
+  color: green;
+  font-size: 1.2rem;
+}
+.letter{
+  position: absolute;
+  top: 0;
+  color: green;
+  transition: 20ms ease-in-out;
+}
