@@ -13,5 +13,5 @@ body pre{
   position: absolute;
   top: 0;
   color: green;
-  transition: 20ms ease-in-out;
+  transition: 10ms ease-in-out;
 }
