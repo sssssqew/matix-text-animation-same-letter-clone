@@ -1,7 +1,8 @@
 const paragraph = document.querySelector('pre')
 const text = paragraph.innerText
-const scrollbarWidth = 20
-const widthOfBrowser = document.documentElement.clientWidth - scrollbarWidth
+const scrollbarWidth = 50
+const maxFontSize = 30
+const widthOfBrowser = document.documentElement.clientWidth - (scrollbarWidth + maxFontSize)
 let isStarted = false
 
 function pickRandomNumber(n){
